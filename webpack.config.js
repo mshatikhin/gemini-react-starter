@@ -10,8 +10,8 @@ module.exports = {
         "webpack-dev-server/client?http://localhost:9000"
     ],
     output: {
-        publicPath: "/",
-        path: path.resolve(__dirname, 'dist'),
+        publicPath: "",
+        path: path.resolve(__dirname, "dist"),
         filename: "assets/[name].js"
     },
     devServer: {

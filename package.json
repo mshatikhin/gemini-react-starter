@@ -6,6 +6,7 @@
   "scripts": {
     "preinstall": "npm install -g gemini selenium-standalone",
     "start": "webpack-dev-server",
+    "build": "webpack -p",
     "selenium": "selenium-standalone start",
     "test": "gemini test --reporter vflat --reporter html"
   },
