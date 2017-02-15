@@ -7,5 +7,5 @@
 
 
 Запуск тестов:
-* запускаем selenium (npm run selenium wd)
+* запускаем selenium (npm run selenium)
 * запускаем тесты (npm test)
