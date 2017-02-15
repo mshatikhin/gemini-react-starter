@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gemini report</title>
+        <link rel="stylesheet" type="text/css" href="report.css">
+    </head>
+
+    <body class="report">
+        <dl class="summary">
+            <dt class="summary__key">Total Tests</dt><dd class="summary__value">1</dd>
+            <dt class="summary__key">Passed</dt><dd class="summary__value">1</dd>
+            <dt class="summary__key ">Failed</dt><dd class="summary__value">0</dd>
+            <dt class="summary__key">Skipped</dt><dd class="summary__value">0</dd>
+            <dt class="summary__key">Retries</dt><dd class="summary__value">0</dd>
+        </dl>
+
+        <button id="expandAll" class="button">Expand all</button>
+        <button id="collapseAll" class="button">Collapse all</button>
+        <button id="expandErrors" class="button">Expand errors</button>
+        <button id="showSkipped" class="button">Show skipped</button>
+        <button id="showRetries" class="button">Expand retries</button>
+        <button id="showOnlyDiff" class="button">Show only diff</button>
+        <input id="viewHostInput" class="text-input" size="40" placeholder="change original host for view in browser"/>
+
+        <div id="skippedList" class="skipped__list collapsed">
+                There are no skipped tests
+        </div>
+
+            <div class="section  section_status_success ">
+    <div class="section__title">
+        App test
+            <button
+                class="button section__icon section__icon_copy-to-clipboard"
+                title="copy to clipboard"
+                data-clipboard-text="App test">
+            </button>
+    </div>
+    <div class="section__body section__body_guided">
+
+            <div class="section  section_status_success ">
+    <div class="section__title">
+        plain
+            <button
+                class="button section__icon section__icon_copy-to-clipboard"
+                title="copy to clipboard"
+                data-clipboard-text="App test,plain">
+            </button>
+    </div>
+    <div class="section__body section__body_guided">
+            <div class="section section_collapsed section_status_success ">
+                    <div class="section__title">
+                        chrome
+                        <a
+                            class="button section__icon section__icon_view-local"
+                            data-suite-view-link="http://localhost:9000/" href="http://localhost:9000/"
+                            title="view in browser"
+                            target="_blank">
+                        </a>
+                    </div>
+                    <div class="section__body">
+                        <div class="image-box ">
+                            <div class="cswitcher">
+                                <button data-id="1" class="state-button cswitcher__item cswitcher_color_1 cswitcher__item_selected">&nbsp;</button>
+                                <button data-id="2" class="state-button cswitcher__item cswitcher_color_2">&nbsp;</button>
+                                <button data-id="3" class="state-button cswitcher__item cswitcher_color_3">&nbsp;</button>
+                            </div>
+                            <div class="tab">
+                                    <div class="tab__item tab__item_active" data-position="0">
+                                        <div class="meta-info meta-info_collapsed">
+    <div class="meta-info__switcher">Meta-info</div>
+    <div class="meta-info__content">
+        <pre>{
+    &quot;url&quot;: &quot;/&quot;,
+    &quot;sessionId&quot;: &quot;478efa77-995e-4bad-b25f-6b1005796e9d&quot;
+}</pre>
+    </div>
+</div>
+    <div class="image-box__image">
+        <img data-src="images/App%20test/plain/chrome~ref.png">
+    </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+    </div>
+</div>
+    </div>
+</div>
+
+        <script src="report.min.js"></script>
+    </body>
+</html>
