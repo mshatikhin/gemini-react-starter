@@ -11,7 +11,7 @@
 
 Запуск тестов:
 * ставим зависимости (npm i, потребуется GCC 4.6+ + Python 2.7)
-* должен быть установлен selenium (brew install selenium-server-standalone)
+* должен быть установлен selenium
  * npm install selenium-standalone@latest -g
  * selenium-standalone install
  * ставим последнюю jdk
